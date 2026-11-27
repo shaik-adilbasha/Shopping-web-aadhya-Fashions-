@@ -1,0 +1,8 @@
+import type { Metadata } from 'next'
+import { LoginView } from '@/components/auth/login-view'
+
+export const metadata: Metadata = { title: 'Login — Aadhya Fashions Studios' }
+
+export default function Page() {
+  return <LoginView />
+}
